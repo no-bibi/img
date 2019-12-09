@@ -27,7 +27,7 @@ func Gray(img image.Image) image.Image {
 //convert img to binaryzation
 // rbg >= threshold is black
 // rbg < threshold is white
-func Binaryzation(img image.Image, threshold uint8) image.Image {
+func Binary(img image.Image, threshold uint8) image.Image {
 	bounds := img.Bounds()
 	w, h := bounds.Max.X, bounds.Max.Y
 	newRgba := image.NewRGBA(bounds)

@@ -6,7 +6,7 @@ import (
 	"testing"
 )
 
-func TestBinaryzation(t *testing.T) {
+func TestBinary(t *testing.T) {
 	type args struct {
 		img       image.Image
 		threshold uint8
@@ -20,7 +20,7 @@ func TestBinaryzation(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := Binaryzation(tt.args.img, tt.args.threshold); !reflect.DeepEqual(got, tt.want) {
+			if got := Binary(tt.args.img, tt.args.threshold); !reflect.DeepEqual(got, tt.want) {
 				t.Errorf("Binaryzation() = %v, want %v", got, tt.want)
 			}
 		})

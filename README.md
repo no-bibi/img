@@ -26,7 +26,7 @@ func main() {
 	img.Encode(grayed,`./enter_grap.png`)
 
 	//want binaryzation ? not problem (ps:you can adjust threshold between 0 - 255)
-	binaryzation := img.Binaryzation(grayed, 180)
+	binaryzation := img.Binary(grayed, 180)
 	img.Encode(binaryzation,`./enter_binaryzation.png`)
 
 	//want reverse ? go on with Reverse
@@ -36,10 +36,10 @@ func main() {
 ```
 
 ### work out
-<p>original : <img src="source/enter.png" style="max-width: 40%;"></p>
-<p>gray : <img src="build/enter_grap.png" style="max-width: 40%;"></p>
-<p>binaryzation : <img src="build/enter_binaryzation.png" style="max-width: 40%;"></p>
-<p>reverse : <img src="build/enter_reverse.png" style="max-width: 40%;"></p>
+<p>original : <img src="source/enter.png"></p>
+<p>gray : <img src="build/enter_grap.png"></p>
+<p>binary : <img src="build/enter_binaryzation.png"></p>
+<p>reverse : <img src="build/enter_reverse.png"></p>
 
 
 ### licenses
