@@ -37,8 +37,8 @@ func main() {
 
 ### work out
 
-<img src="source/enter.png" /><br>原图
-<img src="build/enter_gray.png" /><br>gray
+<img src="source/enter.png" /><br>original
+<img src="build/enter_grap.png" /><br>gray
 <img src="build/enter_binaryzation.png" /><br>binaryzation
 <img src="build/enter_reverse.png" /><br>reverse
 
