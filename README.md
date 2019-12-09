@@ -5,7 +5,7 @@ golang image to gray,binaryzation,reverse color
 ### install
 
 ```code
-go get github.com/Comdex/imgo
+go get github.com/no-bibi/img
 ```
 
 ### demo
