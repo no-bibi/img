@@ -8,7 +8,7 @@ golang image to gray,binaryzation,reverse color
 go get github.com/no-bibi/img
 ```
 
-### demo
+### quick start
 
 ```go
 package main
@@ -35,7 +35,7 @@ func main() {
 }
 ```
 
-### work out
+### result
 
 
 
