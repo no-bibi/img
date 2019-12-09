@@ -25,8 +25,8 @@ func main() {
 	grayed := img.Gray(file)
 	img.Encode(grayed,`./enter_grap.png`)
 
-	//want binaryzation ? not problem (ps:you can adjust threshold between 0 - 255)
-	binaryzation := img.Binary(grayed, 180)
+	//want binary ? not problem (ps:you can adjust threshold between 0 - 255)
+	binary := img.Binary(grayed, 180)
 	img.Encode(binaryzation,`./enter_binaryzation.png`)
 
 	//want reverse ? go on with Reverse
