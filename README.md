@@ -39,10 +39,10 @@ func main() {
 
 
 
-<p>original : <img src="source/enter.png"></p>
-<p>gray : <img src="build/enter_grap.png"></p>
-<p>binary : <img src="build/enter_binaryzation.png"></p>
-<p>reverse : <img src="build/enter_reverse.png"></p>
+<p>original: <img src="source/enter.png"></p><br>
+<p>gray    : <img src="build/enter_grap.png"></p><br>
+<p>binary  : <img src="build/enter_binaryzation.png"></p><br>
+<p>reverse : <img src="build/enter_reverse.png"></p><br>
 
 
 ### licenses
