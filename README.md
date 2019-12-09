@@ -36,11 +36,11 @@ func main() {
 ```
 
 ### work out
+<p>original : <img src="source/enter.png"></p>
+<p>gray : <img src="build/enter_grap.png"></p>
+<p>binaryzation : <img src="build/enter_binaryzation.png"></p>
+<p>reverse : <img src="build/enter_reverse.png"></p>
 
-<img src="source/enter.png" /><br>original
-<img src="build/enter_grap.png" /><br>gray
-<img src="build/enter_binaryzation.png" /><br>binaryzation
-<img src="build/enter_reverse.png" /><br>reverse
 
 ### licenses
 
