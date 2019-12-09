@@ -36,6 +36,9 @@ func main() {
 ```
 
 ### work out
+
+
+
 <p>original : <img src="source/enter.png"></p>
 <p>gray : <img src="build/enter_grap.png"></p>
 <p>binary : <img src="build/enter_binaryzation.png"></p>
