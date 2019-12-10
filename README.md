@@ -27,10 +27,10 @@ func main() {
 
 	//want binary ? not problem (ps:you can adjust threshold between 0 - 255)
 	binary := img.Binary(grayed, 180)
-	img.Encode(binaryzation,`./enter_binaryzation.png`)
+	img.Encode(binary,`./enter_binaryzation.png`)
 
 	//want reverse ? go on with Reverse
-	reverse := img.Reverse(binaryzation)
+	reverse := img.Reverse(binary)
 	img.Encode(reverse,`./enter_reverse.png`)
 }
 ```
